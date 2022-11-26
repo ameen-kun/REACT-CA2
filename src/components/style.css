@@ -1,0 +1,38 @@
+input:not(input[type=submit]){
+    width:300px;
+    padding:15px;
+    border:0;
+}
+label{
+    float: left;
+    margin-left:90px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.App{
+    margin-top: 20%;
+    padding: 20px;
+    background-image:linear-gradient(45deg,black,darkslategrey);
+    color:white;
+    width:500px;
+    border-radius:2em;
+    padding:20px;
+    height:550px;
+}
+.error{
+    color:red;
+    float: left;
+    margin-left:90px;
+}
+input[type=submit]{
+    padding:10px;
+    border:0;
+}
+input{
+    border-radius: 5px;
+}
+input[type=submit]:hover{
+    background-color: gold;
+}
